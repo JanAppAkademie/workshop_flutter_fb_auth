@@ -23,6 +23,7 @@ class HomeScreen extends StatelessWidget {
                 },
                 child: const Text("Sign In with Google"),
               ),
+              const SizedBox(height: 20),
               BlocConsumer<AuthCubit, AuthState>(
                 listener: (context, state) {
                   if (state is AuthError) {
@@ -48,6 +49,9 @@ class HomeScreen extends StatelessWidget {
                             decoration:
                                 const InputDecoration(labelText: 'Password'),
                             obscureText: true,
+                          ),
+                          const SizedBox(
+                            height: 10,
                           ),
                           ElevatedButton(
                             onPressed: () => context

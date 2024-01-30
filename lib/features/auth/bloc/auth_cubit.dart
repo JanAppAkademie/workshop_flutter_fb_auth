@@ -1,5 +1,6 @@
 import 'package:bloc_fb_auth/features/auth/bloc/auth_state.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../repo/auth_repo.dart';
@@ -18,6 +19,20 @@ class AuthCubit extends Cubit<AuthState> {
       emit(AuthLoading());
       await _authRepository.loginWithGoogle();
 
+      emit(Authenticated(
+        "Success",
+        _authRepository.getCurrentUser()!.email.toString(),
+      ));
+      if (context.mounted) Navigator.popAndPushNamed(context, "/auth");
+    } catch (e) {
+      emit(AuthError(e.toString()));
+    }
+  }
+
+  Future<void> signInWithApple(BuildContext context) async {
+    final appleProvider = AppleAuthProvider();
+    try {
+      await _firebaseAuth.signInWithProvider(appleProvider);
       emit(Authenticated(
         "Success",
         _authRepository.getCurrentUser()!.email.toString(),

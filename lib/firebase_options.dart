@@ -17,7 +17,10 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      return web;
+      throw UnsupportedError(
+        'DefaultFirebaseOptions have not been configured for web - '
+        'you can reconfigure this by running the FlutterFire CLI again.',
+      );
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -25,7 +28,10 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -43,15 +49,6 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCb40snmCE0g2C5CR0AOprDgiMT5nGnaYk',
-    appId: '1:1074968909224:web:14ff1351fac596712b799d',
-    messagingSenderId: '1074968909224',
-    projectId: 'bloc-fb-auth',
-    authDomain: 'bloc-fb-auth.firebaseapp.com',
-    storageBucket: 'bloc-fb-auth.appspot.com',
-  );
-
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyD1h_B_RXJBrmS7q_BVZ8dQFUXetYTz8rk',
     appId: '1:1074968909224:android:49b10295465012462b799d',
@@ -66,17 +63,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1074968909224',
     projectId: 'bloc-fb-auth',
     storageBucket: 'bloc-fb-auth.appspot.com',
+    androidClientId: '1074968909224-jbk5isu5qs0mee645of7fpkh6k4mepno.apps.googleusercontent.com',
     iosClientId: '1074968909224-qt0lgj9jbcvjhff91eueo8g19ojt22bo.apps.googleusercontent.com',
     iosBundleId: 'com.example.blocFbAuth',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCd1MTlkH7Vh9H6G6QIXLQOgzQSjxSBB6E',
-    appId: '1:1074968909224:ios:5c8afb782588e9992b799d',
-    messagingSenderId: '1074968909224',
-    projectId: 'bloc-fb-auth',
-    storageBucket: 'bloc-fb-auth.appspot.com',
-    iosClientId: '1074968909224-i1qm5jipvamaagks8t3af7b39tfpnp58.apps.googleusercontent.com',
-    iosBundleId: 'com.example.blocFbAuth.RunnerTests',
   );
 }

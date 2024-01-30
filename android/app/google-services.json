@@ -1,0 +1,142 @@
+{
+  "project_info": {
+    "project_number": "1074968909224",
+    "project_id": "bloc-fb-auth",
+    "storage_bucket": "bloc-fb-auth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074968909224:android:49b10295465012462b799d",
+        "android_client_info": {
+          "package_name": "com.example.bloc_fb_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074968909224-jbk5isu5qs0mee645of7fpkh6k4mepno.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bloc_fb_auth",
+            "certificate_hash": "ba39d12e973ebcace79f4bf4c19191a55982615f"
+          }
+        },
+        {
+          "client_id": "1074968909224-jnoqroi24rr9dqiebrfribk2r4g1e6lb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bloc_fb_auth",
+            "certificate_hash": "985b46057ec8f685137f3db82e1dbc9279709481"
+          }
+        },
+        {
+          "client_id": "1074968909224-rrl38es1dk9ebfau054ivnneu34r82on.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bloc_fb_auth",
+            "certificate_hash": "976460c2fa4246b8ff291588650aaa07eb7d22af"
+          }
+        },
+        {
+          "client_id": "1074968909224-s7umgme3kd6ibps4lt5ok5ib2r1fpn67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1h_B_RXJBrmS7q_BVZ8dQFUXetYTz8rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074968909224-avj7irm52l1k34hftqr4p5mdtmjq01qs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1074968909224-3cdkhmc81m7d30vcv0poa69oc9g11d5f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.testProjectFb2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074968909224:android:ab5bdbbdab53811a2b799d",
+        "android_client_info": {
+          "package_name": "com.example.fb_auth_cubit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074968909224-s7umgme3kd6ibps4lt5ok5ib2r1fpn67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1h_B_RXJBrmS7q_BVZ8dQFUXetYTz8rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074968909224-avj7irm52l1k34hftqr4p5mdtmjq01qs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1074968909224-3cdkhmc81m7d30vcv0poa69oc9g11d5f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.testProjectFb2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074968909224:android:116841d3d223944f2b799d",
+        "android_client_info": {
+          "package_name": "com.example.test_project_fb_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074968909224-s7umgme3kd6ibps4lt5ok5ib2r1fpn67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1h_B_RXJBrmS7q_BVZ8dQFUXetYTz8rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074968909224-avj7irm52l1k34hftqr4p5mdtmjq01qs.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1074968909224-3cdkhmc81m7d30vcv0poa69oc9g11d5f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.testProjectFb2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
