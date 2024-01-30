@@ -1,4 +1,4 @@
-import 'package:bloc_fb_auth/features/auth/bloc/auth_state.dart';
+import 'package:bloc_fb_auth/bloc_example/auth/bloc/auth_state.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

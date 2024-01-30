@@ -1,8 +1,8 @@
-# bloc_fb_auth
+# Workshop Flutter Firebase Auth
 
 Vorzeige-App für Firebase Auth (Google und Email) mit BLoC/Cubit sowie Feature First Architektur.
-Firebase wurde mti der FlutterFire CLI konfiguriert.
-
+Firebase wurde mit der FlutterFire CLI konfiguriert.
+Denkt bitte daran, die Konfigurationsdatei (+ FlutterFire CLI) beim Projektstart richtig anzubinden - anonsten wird das Projekt nicht funktionieren.
 
 ## Nützliche Links
 
