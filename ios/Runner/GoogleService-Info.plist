@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1074968909224-qt0lgj9jbcvjhff91eueo8g19ojt22bo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1074968909224-qt0lgj9jbcvjhff91eueo8g19ojt22bo</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>1074968909224-jbk5isu5qs0mee645of7fpkh6k4mepno.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCd1MTlkH7Vh9H6G6QIXLQOgzQSjxSBB6E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1074968909224</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.blocFbAuth</string>
+	<key>PROJECT_ID</key>
+	<string>bloc-fb-auth</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bloc-fb-auth.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1074968909224:ios:5704cc7cdbc7000e2b799d</string>
+</dict>
+</plist>
